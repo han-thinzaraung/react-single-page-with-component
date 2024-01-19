@@ -1,9 +1,11 @@
 import React from 'react';
 import logo from './logo.jpg';
 
+
 export default function Header() {
   return (
     <>
+    {/* Header Section */}
       <section>
         <div>
             <nav className="navbar navbar-expand-md navbar-dark bg-dark">
@@ -18,9 +20,9 @@ export default function Header() {
 
                       <div className="collapse navbar-collapse justify-content-end me-5" id="nav" >
                           <ul className="navbar-nav ms-4" >
-                            <li className="nav-item"><a href="#home" className="nav-link text-light text-uppercase px-3 fw-bold">Home</a></li>
-                            <li className="nav-item"><a href="#about" className="nav-link text-light text-uppercase px-3 fw-bold">About</a></li>
-                            <li className="nav-item"><a href="#services" className="nav-link text-light text-uppercase px-3 fw-bold">Service</a></li>
+                            <li className="nav-item"><a href="/home" className="nav-link text-light text-uppercase px-3 fw-bold">Home</a></li>
+                            <li className="nav-item"><a href="/about" className="nav-link text-light text-uppercase px-3 fw-bold">About</a></li>
+                            <li className="nav-item"><a href="/service" className="nav-link text-light text-uppercase px-3 fw-bold">Service</a></li>
                           </ul>
                       </div>
 

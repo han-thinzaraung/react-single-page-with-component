@@ -3,6 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <>
+     {/* Footer Section */}
         <footer className="bg-secondary">
           <div className="container-fluid">
               <div className="row">

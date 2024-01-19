@@ -3,13 +3,14 @@ import React from 'react'
 export default function About() {
   return (
    <>
+   {/* About Section */}
     <section className='about'>
         <div className="container-fluid bg-light">
           
             <div className="row">
                 <div className="col text-center p-5">
                     <h1 className="text-dark display-4 fw-bold">About React</h1>
-                    <p classNames="text-secondary lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p classNames="text-secondary">Whether you work on your own or with thousands of other developers, using React feels the same. It is designed to let you seamlessly combine components written by independent people, teams, and organizations.</p>
                 </div>
             </div>
           
