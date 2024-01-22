@@ -1,10 +1,12 @@
 import React from 'react'
 
+
 export default function About() {
   return (
    <>
+  
    {/* About Section */}
-    <section className='about'>
+    <section className='about' id = 'about'>
         <div className="container-fluid bg-light">
           
             <div className="row">
@@ -36,6 +38,7 @@ export default function About() {
           </div>
         </div>
       </section>
+    
 
    </>
   )

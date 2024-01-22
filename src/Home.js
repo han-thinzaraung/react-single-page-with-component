@@ -1,6 +1,7 @@
 import React from 'react'
 import company_image from './react.png'
 
+
 export default function Home() {
   return ( 
     <>
@@ -19,6 +20,7 @@ export default function Home() {
             </div>
         </div>
       </section>
+
     </>
   )
 }

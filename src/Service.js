@@ -5,7 +5,7 @@ export default function Service() {
   return (
           <>
            {/* Service Section */}
-            <section className='service'>
+            <section className='service' id = 'service'>
                 <div className="container-fluid bg-light">
                     <div className="row m-3 p-3">
                       <div className="col text-center">
@@ -49,6 +49,7 @@ export default function Service() {
                     </div>
                 </div>
             </section>
+          
           </>
   )
 }
